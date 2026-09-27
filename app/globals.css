@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --library-background: #f5f5f4;
+  --library-surface: #ffffff;
+  --library-surface-muted: #fafafa;
+  --library-foreground: #18181b;
+  --library-muted: #52525b;
+  --library-subtle: #71717a;
+  --library-faint: #a1a1aa;
+  --library-border: #e4e4e7;
+  --library-border-strong: #d4d4d8;
+  --library-action: #18181b;
+  --library-action-foreground: #ffffff;
+  --library-accent: #65a30d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --library-background: #09090b;
+    --library-surface: #18181b;
+    --library-surface-muted: #27272a;
+    --library-foreground: #fafafa;
+    --library-muted: #a1a1aa;
+    --library-subtle: #a1a1aa;
+    --library-faint: #71717a;
+    --library-border: #3f3f46;
+    --library-border-strong: #52525b;
+    --library-action: #fafafa;
+    --library-action-foreground: #18181b;
+    --library-accent: #a3e635;
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-dm-serif);
+  --color-library-background: var(--library-background);
+  --color-library-surface: var(--library-surface);
+  --color-library-surface-muted: var(--library-surface-muted);
+  --color-library-foreground: var(--library-foreground);
+  --color-library-muted: var(--library-muted);
+  --color-library-subtle: var(--library-subtle);
+  --color-library-faint: var(--library-faint);
+  --color-library-border: var(--library-border);
+  --color-library-border-strong: var(--library-border-strong);
+  --color-library-action: var(--library-action);
+  --color-library-action-foreground: var(--library-action-foreground);
+  --color-library-accent: var(--library-accent);
+}

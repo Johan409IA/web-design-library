@@ -1,0 +1,184 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Web Design Library, inicio" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation "Navegación principal" [ref=e5]:
+        - link "Explorar" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Diseños" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Plantilla base" [ref=e8] [cursor=pointer]:
+          - /url: /template
+        - link "Comparar" [ref=e9] [cursor=pointer]:
+          - /url: /compare
+        - link "Buscar" [ref=e10] [cursor=pointer]:
+          - /url: /search
+        - link "Favoritos" [ref=e11] [cursor=pointer]:
+          - /url: /favorites
+        - link "Acerca de" [ref=e12] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]: Diseños
+      - img [ref=e16]
+      - generic [ref=e18]: Monochrome
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: 02 / Interpretación web
+        - heading "Monochrome." [level=1] [ref=e22]
+        - paragraph [ref=e23]: Una composición sobria que concentra el contraste, la escala tipográfica y el espacio en una sola familia tonal.
+        - generic [ref=e24]:
+          - button "Añadir a favoritos" [ref=e25]:
+            - img [ref=e26]
+          - generic [ref=e28]: Guardar en favoritos
+        - link "Comparar este diseño" [ref=e30] [cursor=pointer]:
+          - /url: /compare?base=monochrome&against=neutral
+          - text: Comparar este diseño
+          - img [ref=e31]
+      - generic "Plantilla web con estilo Monochrome" [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: AC
+            - generic [ref=e39]: Acme Studio
+          - navigation [ref=e40]:
+            - generic [ref=e41]: Servicios
+            - generic [ref=e42]: Trabajo
+            - generic [ref=e43]: Contacto
+        - main [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: Estrategia · Diseño · Desarrollo
+              - heading "Productos digitales que se entienden." [level=1] [ref=e48]
+              - paragraph [ref=e49]: Diseñamos experiencias claras para equipos que necesitan convertir una idea compleja en un producto útil.
+              - generic [ref=e50]:
+                - button "Ver proyectos" [ref=e51]:
+                  - text: Ver proyectos
+                  - img [ref=e52]
+                - button "Conocer el proceso" [ref=e54]
+            - complementary [ref=e55]:
+              - generic [ref=e56]: Proyecto destacado
+              - generic [ref=e57]:
+                - strong [ref=e58]: 24%
+                - text: menos fricción en el flujo principal
+          - generic [ref=e59]:
+            - article [ref=e60]:
+              - text: "01"
+              - heading "Descubrimiento" [level=2] [ref=e61]
+              - paragraph [ref=e62]: Entender el problema antes de dibujar la solución.
+            - article [ref=e63]:
+              - text: "02"
+              - heading "Prototipo" [level=2] [ref=e64]
+              - paragraph [ref=e65]: Validar estructura, contenido e interacción.
+            - article [ref=e66]:
+              - text: "03"
+              - heading "Entrega" [level=2] [ref=e67]
+              - paragraph [ref=e68]: Convertir decisiones en un sistema mantenible.
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - paragraph [ref=e71]: Recibe el próximo caso
+              - paragraph [ref=e72]: Una actualización breve, sin ruido.
+            - generic [ref=e73]:
+              - textbox "Correo de ejemplo" [ref=e74]:
+                - /placeholder: correo@ejemplo.com
+              - button "Suscribirse" [ref=e75]:
+                - img [ref=e76]
+    - generic [ref=e79]:
+      - generic [ref=e80]: Resumen
+      - generic [ref=e81]:
+        - heading "¿Qué representa esta interpretación?" [level=2] [ref=e82]
+        - paragraph [ref=e83]: "Monochrome reduce la interfaz a valores de negro, blanco y gris para que la jerarquía dependa de la proporción, la tipografía y el ritmo. El resultado es preciso y editorial: las superficies oscuras generan profundidad, los contornos discretos ordenan la información y los titulares ligeros aportan presencia sin añadir color."
+    - generic [ref=e84]:
+      - generic [ref=e86]:
+        - text: Lenguaje visual
+        - heading "Características principales" [level=2] [ref=e87]
+      - generic [ref=e88]:
+        - article [ref=e89]:
+          - text: "01"
+          - heading "Paleta restringida a blanco, negro y grises" [level=3] [ref=e90]
+        - article [ref=e91]:
+          - text: "02"
+          - heading "Tipografía editorial de gran escala" [level=3] [ref=e92]
+        - article [ref=e93]:
+          - text: "03"
+          - heading "Contraste construido por luminosidad" [level=3] [ref=e94]
+        - article [ref=e95]:
+          - text: "04"
+          - heading "Espaciado amplio y composición silenciosa" [level=3] [ref=e96]
+    - generic [ref=e98]:
+      - generic [ref=e100]:
+        - text: Color
+        - heading "Paleta y función" [level=2] [ref=e101]
+      - generic [ref=e102]:
+        - 'button "Negro profundo #080808 · Canvas principal y fondo de máxima profundidad" [ref=e103]':
+          - generic [ref=e105]:
+            - generic [ref=e106]: Negro profundo
+            - generic [ref=e107]: "#080808 · Canvas principal y fondo de máxima profundidad"
+        - 'button "Marfil #F7F5F2 · Texto principal, acciones y contraste luminoso" [ref=e108]':
+          - generic [ref=e110]:
+            - generic [ref=e111]: Marfil
+            - generic [ref=e112]: "#F7F5F2 · Texto principal, acciones y contraste luminoso"
+        - 'button "Gris humo #A3A3A3 · Texto secundario, bordes y estados de baja intensidad" [ref=e113]':
+          - generic [ref=e115]:
+            - generic [ref=e116]: Gris humo
+            - generic [ref=e117]: "#A3A3A3 · Texto secundario, bordes y estados de baja intensidad"
+        - 'button "Grafito #1D1D1D · Tarjetas y superficies elevadas dentro del fondo oscuro" [ref=e118]':
+          - generic [ref=e120]:
+            - generic [ref=e121]: Grafito
+            - generic [ref=e122]: "#1D1D1D · Tarjetas y superficies elevadas dentro del fondo oscuro"
+    - generic [ref=e123]:
+      - article [ref=e124]:
+        - text: Tipografía
+        - heading "Serif editorial, 300–500" [level=2] [ref=e125]
+        - paragraph [ref=e126]: "Texto: DM Sans, 400–500"
+        - paragraph [ref=e127]: Titulares serif ligeros y amplios contrastan con una sans funcional para lectura, navegación y metadatos.
+      - article [ref=e128]:
+        - text: Composición
+        - heading "Ritmo y jerarquía." [level=2] [ref=e129]
+        - paragraph [ref=e130]: Composición amplia de un solo lienzo oscuro, con bloques delimitados por líneas tenues y un ritmo que prioriza la lectura pausada.
+        - generic [ref=e131]:
+          - generic [ref=e132]: Jerarquía por escala
+          - generic [ref=e133]: Superficies oscuras estratificadas
+          - generic [ref=e134]: Bordes de bajo contraste
+          - generic [ref=e135]: Ritmo editorial
+    - generic [ref=e137]:
+      - button "Descargar DESIGN.md" [ref=e138]:
+        - img [ref=e139]
+        - text: Descargar DESIGN.md
+      - button "Copiar prompt IA" [ref=e142]:
+        - img [ref=e143]
+        - text: Copiar prompt IA
+    - generic [ref=e146]:
+      - generic [ref=e148]:
+        - text: Próximamente
+        - heading "Diseños relacionados" [level=2] [ref=e149]
+      - article [ref=e151]:
+        - generic [ref=e152]:
+          - link "Ver Brutalista" [ref=e153] [cursor=pointer]:
+            - /url: /styles/brutalista
+            - img "Captura de una página web con el diseño Brutalista" [ref=e155]
+            - generic [ref=e156]:
+              - text: Ver aplicación
+              - img [ref=e157]
+          - button "Añadir a favoritos" [ref=e161]:
+            - img [ref=e162]
+        - link "01 / Crudo / Experimental audaz Brutalista Una interpretación web basada en contraste fuerte, estructura visible y tipografía dominante. audaz experimental alto contraste" [ref=e164] [cursor=pointer]:
+          - /url: /styles/brutalista
+          - generic [ref=e165]:
+            - generic [ref=e166]: 01 / Crudo / Experimental
+            - generic [ref=e167]: audaz
+          - heading "Brutalista" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Una interpretación web basada en contraste fuerte, estructura visible y tipografía dominante.
+          - generic [ref=e170]:
+            - generic [ref=e171]: audaz
+            - generic [ref=e172]: experimental
+            - generic [ref=e173]: alto contraste
+  - contentinfo [ref=e174]:
+    - generic [ref=e175]:
+      - generic [ref=e176]: Web Design Library / 2026
+      - generic [ref=e177]: Una plantilla común, múltiples lenguajes visuales.
+      - link "Acerca del proyecto" [ref=e178] [cursor=pointer]:
+        - /url: /about
+        - text: Acerca del proyecto
+        - img [ref=e179]
+  - alert [ref=e182]

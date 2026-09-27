@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Web Design Library, inicio" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation "Navegación principal" [ref=e5]:
+        - link "Explorar" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Diseños" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Plantilla base" [ref=e8] [cursor=pointer]:
+          - /url: /template
+        - link "Comparar" [ref=e9] [cursor=pointer]:
+          - /url: /compare
+        - link "Buscar" [ref=e10] [cursor=pointer]:
+          - /url: /search
+        - link "Favoritos" [ref=e11] [cursor=pointer]:
+          - /url: /favorites
+        - link "Acerca de" [ref=e12] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e13]:
+    - text: Comparación / Misma estructura
+    - heading "Brutalista frente a Monochrome." [level=1] [ref=e14]:
+      - text: Brutalista frente a
+      - emphasis [ref=e15]: Monochrome.
+    - paragraph [ref=e16]: Ambos paneles contienen exactamente las mismas secciones. Solo cambia el sistema visual aplicado.
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - text: Comparar Brutalista con
+        - combobox "Comparar Brutalista con" [ref=e20]:
+          - option "Plantilla neutral"
+          - option "Monochrome" [selected]
+      - button "Actualizar comparación" [ref=e21]
+    - generic [ref=e22]:
+      - article [ref=e23]:
+        - generic [ref=e24]:
+          - text: A / Diseño base
+          - heading "Brutalista" [level=2] [ref=e25]
+        - generic "Plantilla web con estilo brutalista" [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - generic [ref=e29]: AC
+              - generic [ref=e30]: Acme Studio
+            - navigation [ref=e31]:
+              - generic [ref=e32]: Servicios
+              - generic [ref=e33]: Trabajo
+              - generic [ref=e34]: Contacto
+          - main [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]:
+                - paragraph [ref=e38]: Estrategia · Diseño · Desarrollo
+                - heading "Productos digitales que se entienden." [level=1] [ref=e39]
+                - paragraph [ref=e40]: Diseñamos experiencias claras para equipos que necesitan convertir una idea compleja en un producto útil.
+                - generic [ref=e41]:
+                  - button "Ver proyectos" [ref=e42]:
+                    - text: Ver proyectos
+                    - img [ref=e43]
+                  - button "Conocer el proceso" [ref=e45]
+              - complementary [ref=e46]:
+                - generic [ref=e47]: Proyecto destacado
+                - generic [ref=e48]:
+                  - strong [ref=e49]: 24%
+                  - text: menos fricción en el flujo principal
+            - generic [ref=e50]:
+              - article [ref=e51]:
+                - text: "01"
+                - heading "Descubrimiento" [level=2] [ref=e52]
+                - paragraph [ref=e53]: Entender el problema antes de dibujar la solución.
+              - article [ref=e54]:
+                - text: "02"
+                - heading "Prototipo" [level=2] [ref=e55]
+                - paragraph [ref=e56]: Validar estructura, contenido e interacción.
+              - article [ref=e57]:
+                - text: "03"
+                - heading "Entrega" [level=2] [ref=e58]
+                - paragraph [ref=e59]: Convertir decisiones en un sistema mantenible.
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - paragraph [ref=e62]: Recibe el próximo caso
+                - paragraph [ref=e63]: Una actualización breve, sin ruido.
+              - generic [ref=e64]:
+                - textbox "Correo de ejemplo" [ref=e65]:
+                  - /placeholder: correo@ejemplo.com
+                - button "Suscribirse" [ref=e66]:
+                  - img [ref=e67]
+      - article [ref=e69]:
+        - generic [ref=e70]:
+          - text: B / Diseño comparado
+          - heading "Monochrome" [level=2] [ref=e71]
+        - generic "Plantilla web con estilo Monochrome" [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: AC
+              - generic [ref=e76]: Acme Studio
+            - navigation [ref=e77]:
+              - generic [ref=e78]: Servicios
+              - generic [ref=e79]: Trabajo
+              - generic [ref=e80]: Contacto
+          - main [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - paragraph [ref=e84]: Estrategia · Diseño · Desarrollo
+                - heading "Productos digitales que se entienden." [level=1] [ref=e85]
+                - paragraph [ref=e86]: Diseñamos experiencias claras para equipos que necesitan convertir una idea compleja en un producto útil.
+                - generic [ref=e87]:
+                  - button "Ver proyectos" [ref=e88]:
+                    - text: Ver proyectos
+                    - img [ref=e89]
+                  - button "Conocer el proceso" [ref=e91]
+              - complementary [ref=e92]:
+                - generic [ref=e93]: Proyecto destacado
+                - generic [ref=e94]:
+                  - strong [ref=e95]: 24%
+                  - text: menos fricción en el flujo principal
+            - generic [ref=e96]:
+              - article [ref=e97]:
+                - text: "01"
+                - heading "Descubrimiento" [level=2] [ref=e98]
+                - paragraph [ref=e99]: Entender el problema antes de dibujar la solución.
+              - article [ref=e100]:
+                - text: "02"
+                - heading "Prototipo" [level=2] [ref=e101]
+                - paragraph [ref=e102]: Validar estructura, contenido e interacción.
+              - article [ref=e103]:
+                - text: "03"
+                - heading "Entrega" [level=2] [ref=e104]
+                - paragraph [ref=e105]: Convertir decisiones en un sistema mantenible.
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - paragraph [ref=e108]: Recibe el próximo caso
+                - paragraph [ref=e109]: Una actualización breve, sin ruido.
+              - generic [ref=e110]:
+                - textbox "Correo de ejemplo" [ref=e111]:
+                  - /placeholder: correo@ejemplo.com
+                - button "Suscribirse" [ref=e112]:
+                  - img [ref=e113]
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]: Web Design Library / 2026
+      - generic [ref=e118]: Una plantilla común, múltiples lenguajes visuales.
+      - link "Acerca del proyecto" [ref=e119] [cursor=pointer]:
+        - /url: /about
+        - text: Acerca del proyecto
+        - img [ref=e120]
+  - alert [ref=e123]

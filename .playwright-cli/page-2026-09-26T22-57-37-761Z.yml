@@ -1,0 +1,90 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Web Design Library, inicio" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation "Navegación principal" [ref=e5]:
+        - link "Explorar" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Diseños" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Plantilla base" [ref=e8] [cursor=pointer]:
+          - /url: /template
+        - link "Comparar" [ref=e9] [cursor=pointer]:
+          - /url: /compare
+        - link "Buscar" [ref=e10] [cursor=pointer]:
+          - /url: /search
+        - link "Favoritos" [ref=e11] [cursor=pointer]:
+          - /url: /favorites
+        - link "Acerca de" [ref=e12] [cursor=pointer]:
+          - /url: /about
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - text: Diseños implementados
+        - heading "Diseño." [level=1] [ref=e16]
+        - paragraph [ref=e17]: Explora diseños existentes aplicados sobre la misma plantilla web.
+      - generic [ref=e18]:
+        - img
+        - textbox "Buscar estilos, etiquetas o usos..." [ref=e19]
+    - generic [ref=e20]:
+      - generic "Filtros de estilos" [ref=e21]:
+        - button "Todos" [pressed] [ref=e22]
+        - button "Audaz" [ref=e23]
+        - button "Editorial" [ref=e24]
+        - button "Experimental" [ref=e25]
+      - paragraph [ref=e26]: 2 resultado
+    - generic [ref=e28]:
+      - article [ref=e29]:
+        - generic [ref=e30]:
+          - link "Ver Brutalista" [ref=e31] [cursor=pointer]:
+            - /url: /styles/brutalista
+            - img "Captura de una página web con el diseño Brutalista" [ref=e33]
+            - generic [ref=e34]:
+              - text: Ver aplicación
+              - img [ref=e35]
+          - button "Añadir a favoritos" [ref=e39]:
+            - img [ref=e40]
+        - link "01 / Crudo / Experimental audaz Brutalista Una interpretación web basada en contraste fuerte, estructura visible y tipografía dominante. audaz experimental alto contraste" [ref=e42] [cursor=pointer]:
+          - /url: /styles/brutalista
+          - generic [ref=e43]:
+            - generic [ref=e44]: 01 / Crudo / Experimental
+            - generic [ref=e45]: audaz
+          - heading "Brutalista" [level=3] [ref=e46]
+          - paragraph [ref=e47]: Una interpretación web basada en contraste fuerte, estructura visible y tipografía dominante.
+          - generic [ref=e48]:
+            - generic [ref=e49]: audaz
+            - generic [ref=e50]: experimental
+            - generic [ref=e51]: alto contraste
+      - article [ref=e52]:
+        - generic [ref=e53]:
+          - link "Ver Monochrome" [ref=e54] [cursor=pointer]:
+            - /url: /styles/monochrome
+            - img "Captura de una página web con el diseño Monochrome" [ref=e56]
+            - generic [ref=e57]:
+              - text: Ver aplicación
+              - img [ref=e58]
+          - button "Añadir a favoritos" [ref=e62]:
+            - img [ref=e63]
+        - link "02 / Monocromático / Editorial editorial Monochrome Una composición sobria que concentra el contraste, la escala tipográfica y el espacio en una sola familia tonal. editorial sobrio alto contraste" [ref=e65] [cursor=pointer]:
+          - /url: /styles/monochrome
+          - generic [ref=e66]:
+            - generic [ref=e67]: 02 / Monocromático / Editorial
+            - generic [ref=e68]: editorial
+          - heading "Monochrome" [level=3] [ref=e69]
+          - paragraph [ref=e70]: Una composición sobria que concentra el contraste, la escala tipográfica y el espacio en una sola familia tonal.
+          - generic [ref=e71]:
+            - generic [ref=e72]: editorial
+            - generic [ref=e73]: sobrio
+            - generic [ref=e74]: alto contraste
+  - contentinfo [ref=e75]:
+    - generic [ref=e76]:
+      - generic [ref=e77]: Web Design Library / 2026
+      - generic [ref=e78]: Una plantilla común, múltiples lenguajes visuales.
+      - link "Acerca del proyecto" [ref=e79] [cursor=pointer]:
+        - /url: /about
+        - text: Acerca del proyecto
+        - img [ref=e80]
+  - button "Open Next.js Dev Tools" [ref=e88] [cursor=pointer]:
+    - img [ref=e89]
+  - alert [ref=e92]
