@@ -9,8 +9,8 @@ if (existsSync(devOutputPath)) {
   console.log("[dev] Caché de desarrollo de Next.js limpiada.");
 }
 
-const packageManager = process.platform === "win32" ? "pnpm.cmd" : "pnpm";
-const child = spawn(packageManager, ["exec", "next", "dev"], {
+const nextCli = resolve("node_modules", "next", "dist", "bin", "next");
+const child = spawn(process.execPath, [nextCli, "dev"], {
   stdio: "inherit",
   shell: false,
 });

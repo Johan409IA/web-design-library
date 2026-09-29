@@ -25,7 +25,7 @@ export const collections: DesignCollection[] = [
     name: "Experimental",
     description:
       "Diseños que hacen visible la estructura y exploran contrastes más directos.",
-    styleSlugs: ["brutalista"],
+    styleSlugs: ["brutalista", "grunge"],
   },
 ];
 

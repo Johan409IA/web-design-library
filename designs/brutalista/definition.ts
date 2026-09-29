@@ -94,7 +94,7 @@ export const brutalistDefinition = {
     "La densidad del contenido requiere una jerarquía muy calmada",
   ],
   tags: ["audaz", "experimental", "alto contraste"],
-  relatedSlugs: ["monochrome"],
+  relatedSlugs: ["monochrome", "grunge"],
   aiPrompt:
     "Aplica el estilo brutalista a esta interfaz. Conserva exactamente la estructura, el contenido, la jerarquía semántica y el orden de las secciones. Modifica únicamente la presentación visual mediante una retícula visible, bordes negros gruesos, tipografía dominante, fondo papel, superficies blancas y un acento ácido. Evita degradados, transparencias, sombras suaves y ornamentación innecesaria. Mantén contraste accesible, foco visible, objetivos táctiles adecuados y comportamiento responsive.",
   iterationGuidance:

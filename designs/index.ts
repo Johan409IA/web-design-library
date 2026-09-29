@@ -1,5 +1,7 @@
 import { brutalistDefinition } from "./brutalista/definition.ts";
 import { brutalistTheme } from "./brutalista/theme.ts";
+import { grungeDefinition } from "./grunge/definition.ts";
+import { grungeTheme } from "./grunge/theme.ts";
 import { monochromeDefinition } from "./monochrome/definition.ts";
 import { monochromeTheme } from "./monochrome/theme.ts";
 import { neutralTheme } from "./neutral-theme.ts";
@@ -17,6 +19,10 @@ const designModules = [
   {
     definition: monochromeDefinition,
     theme: monochromeTheme,
+  },
+  {
+    definition: grungeDefinition,
+    theme: grungeTheme,
   },
 ] satisfies DesignModule[];
 
